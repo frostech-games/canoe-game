@@ -1,0 +1,4 @@
+repository "KayakGame(TBC)/canoe-game@5772709007236@cloud"
+  path "/"
+    br "/main"
+    co "/main"
