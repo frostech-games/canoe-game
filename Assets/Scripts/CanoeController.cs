@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class CanoeController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private Rigidbody rigidbody;
+
+
     void Start()
     {
-        Debug.Log("Hello World");
+        // Instantiate components
+        rigidbody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
